@@ -7,7 +7,9 @@ authors = [
     { name = "TerminalMan", email = "84923604+SecretiveShell@users.noreply.github.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "mcp>=1.6.0",
+]
 
 [project.scripts]
 mcp-allthetools = "mcp_allthetools:main"
